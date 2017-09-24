@@ -19,7 +19,7 @@ public class HelperBase {
 
   protected void type(By locator, String text) {
     wd.findElement(locator).sendKeys(text);
-  }
+  }git
   public boolean isAlertPresent() {
     try {
       wd.switchTo().alert();
